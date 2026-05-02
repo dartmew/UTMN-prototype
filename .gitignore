@@ -1,0 +1,45 @@
+# Виртуальное окружение
+env/
+venv/
+.env/
+.venv/
+env*/
+venv*/
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# IDE (VSCode)
+.vscode/
+.history/
+*.code-workspace
+
+# Файлы с чувствительными данными
+.env
+*.key
+*.pem
+*.crt
+
+# Файлы утилит
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Jupyter (если будешь использовать)
+.ipynb_checkpoints/
+
+# Файлы настроек ОС
+.DS_Store
+Thumbs.db
